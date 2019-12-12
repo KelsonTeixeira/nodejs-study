@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat{
+    width: 400px;
+}
+
+#chat input{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #202020;
+    border-radius: 10px;
+
+}
+
+.messages{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #202020;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+#chat button{
+    width: 100%;
+    height: 30px;
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#chat button:hover{
+    opacity: 0.8;
+}

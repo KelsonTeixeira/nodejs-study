@@ -7,4 +7,4 @@ function change(){
    .then(response => teste.textContent = response);
 }
 
-setInterval(change, 1000);
+setInterval(change, 100);
